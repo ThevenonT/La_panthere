@@ -833,26 +833,7 @@ header{
     align-items: center;
     justify-content: center;
 }
-.padding-nav{
-    width: 95%;
-}
-nav{
-    min-height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-nav ul{
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
-    padding: 0;
-    width: 100%;
-    
-}
-.container-nav-link{
-    min-width: 150px;
-}
+
 .hero-bloc-text{
     background-color: rgba(255, 255, 255, 0.806);
     border-radius: 20px;
@@ -1090,7 +1071,7 @@ nav ul{
         width: 180px;
         height: 320px;
     }
-    .background-transparent{
+    .col-sm-12{
         background-color: transparent;
     }
     .hero-bloc-text{
