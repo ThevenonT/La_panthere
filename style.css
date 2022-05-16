@@ -1,4 +1,5 @@
 body {
+    width:100%;
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -28,7 +29,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    max-width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -317,8 +318,8 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
-    float: right;
+    padding: 0;
+    
     z-index: 1;
 }
 
@@ -824,6 +825,34 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+/* edit for accessibility */
+header{
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.padding-nav{
+    width: 95%;
+}
+nav{
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+    
+}
+.container-nav-link{
+    min-width: 150px;
+}
 .hero-bloc-text{
     background-color: rgba(255, 255, 255, 0.806);
     border-radius: 20px;
@@ -855,6 +884,8 @@ h4 {
     justify-content:center;
     flex-direction: column;
 }
+/* end edit for accessibility */
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -948,6 +979,7 @@ h4 {
         margin-right: 0;
     }
     .site-navigation {
+        width: 100%;
         position: inherit;
         transform: none;
         -webkit-transform: none;
@@ -959,8 +991,10 @@ h4 {
         background: rgba(0, 0, 0, .05);
         text-align: left;
         padding-left: 15px;
+       
         width: 100%;
     }
+    
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
@@ -1056,7 +1090,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
-    .col-sm-12{
+    .background-transparent{
         background-color: transparent;
     }
     .hero-bloc-text{
