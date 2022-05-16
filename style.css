@@ -824,7 +824,37 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
-
+.hero-bloc-text{
+    background-color: rgba(255, 255, 255, 0.806);
+    border-radius: 20px;
+    padding: 10px;
+}
+.background-white{
+    background-color: rgba(255, 255, 255, 0.737);
+    padding: 10px;
+}
+.txt{
+    font-size:16px;
+}
+.txt-hover{
+    text-decoration:underline;
+   
+}
+.txt-hover:hover{
+    
+    text-decoration:overline;
+}
+.txt-h2{
+    background-color: rgba(255, 255, 255, 0.806);
+    border-radius: 20px;
+    padding: 20px;
+}
+.Disflex{
+    display: flex; 
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1025,6 +1055,14 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .col-sm-12{
+        background-color: transparent;
+    }
+    .hero-bloc-text{
+        background-color: rgba(255, 255, 255, 0.739);
+        border-radius: 20px;
+        padding: 10px;
     }
 }
 
