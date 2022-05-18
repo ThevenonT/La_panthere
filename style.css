@@ -11,14 +11,22 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
+    
     outline: none!important;
 }
 
 a:hover {
     text-decoration: none;
+    transform: scale(1.2);
     cursor: pointer;
 }
-
+a:focus{
+    transform: scale(1.2);
+    border: 1px solid blue; 
+}
+.col-sm-4 p, .col-sm-6 p{
+    font-size: 16px;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
