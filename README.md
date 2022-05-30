@@ -1,5 +1,5 @@
-# La_phantere
+# La_panthere
 Agence de web design
 
 ## github pages
-https://thevenont.github.io/La_phantere/index.html
+https://thevenont.github.io/La_panthere/ 
