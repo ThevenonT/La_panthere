@@ -544,7 +544,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -752,7 +754,9 @@ h4 {
 }
 
 .portfolio-thumb {
+
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -1140,6 +1144,16 @@ header {
 }
 
 @media (max-width: 767px) {
+
+    a:hover {
+        transform: scale(1.02)
+    }
+
+    .portfolio-thumb {
+
+        width: 80%;
+    }
+
     .bloc-mob-center-text {
         text-align: center;
     }
